@@ -1,11 +1,15 @@
 FROM node:18-alpine
 
-WORKDIR /opt/frontend-container-app-root/frontend-src-root
+ARG HOST_SRC_ROOT
+ARG APP_ROOT
+ENV APP_ROOT=$APP_ROOT
 
-COPY ./host-frontend-root/frontend-src-root/package*.json /opt/frontend-container-app-root/frontend-src-root/
+WORKDIR $APP_ROOT
+
+COPY ${HOST_SRC_ROOT}/package*.json $APP_ROOT/
 
 RUN npm install
 
-COPY ./host-frontend-root/frontend-src-root /opt/frontend-container-app-root/frontend-src-root
+COPY ${HOST_SRC_ROOT} $APP_ROOT
 
 CMD ["npm", "run", "dev"]
