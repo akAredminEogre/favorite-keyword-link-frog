@@ -14,7 +14,11 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.25",
+    "@endo/eventual-send": "^1.0.0",
     "@eslint/js": "^9.9.0",
+    "@jridgewell/sourcemap-codec": "^1.0.0",
+    "@types/chrome": "^0.0.271",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
