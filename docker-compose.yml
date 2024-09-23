@@ -1,0 +1,9 @@
+services:
+  test-app:
+    image: test-app
+    container_name: test-app
+    build: .
+    restart: always
+    tty: true
+    volumes:
+      - ./react-test-app:/opt/react-test-app
