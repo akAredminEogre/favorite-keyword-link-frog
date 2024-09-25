@@ -1,9 +1,9 @@
 services:
-  test-app:
-    image: test-app
-    container_name: test-app
+  frontend:
+    image: frontend-image
+    container_name: frontend-container
     build: .
     restart: always
     tty: true
     volumes:
-      - ./react-test-app:/opt/react-test-app
+      - ./host-frontend-root:/opt/frontend-container-app-root/
