@@ -6,8 +6,4 @@ services:
     restart: always
     tty: true
     volumes:
-      - ./host-frontend-root/frontend-src-root:/opt/frontend-container-app-root/frontend-src-root
-    ports:
-      - "5173:5173"  # ポートフォワーディングの設定
-    environment:
-      - HOST=0.0.0.0  # サーバーのバインドアドレスを設定
+      - ./host-frontend-root:/opt/frontend-container-app-root/
