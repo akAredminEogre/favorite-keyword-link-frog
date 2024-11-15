@@ -14,20 +14,16 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@crxjs/vite-plugin": "^2.0.0-beta.25",
-    "@endo/eventual-send": "^1.0.0",
-    "@eslint/js": "^9.9.0",
-    "@jridgewell/sourcemap-codec": "^1.0.0",
-    "@types/chrome": "^0.0.271",
-    "@types/react": "^18.3.3",
+    "@eslint/js": "^9.11.1",
+    "@types/react": "^18.3.10",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
-    "eslint": "^9.9.0",
+    "eslint": "^9.11.1",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
-    "eslint-plugin-react-refresh": "^0.4.9",
+    "eslint-plugin-react-refresh": "^0.4.12",
     "globals": "^15.9.0",
     "typescript": "^5.5.3",
-    "typescript-eslint": "^8.0.1",
-    "vite": "^5.4.1"
+    "typescript-eslint": "^8.7.0",
+    "vite": "^5.4.8"
   }
 }
