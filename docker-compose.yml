@@ -2,16 +2,11 @@ services:
   frontend:
     image: frontend-image
     container_name: frontend-container
-    build:
-      context: .
-      args:
-        HOST_SRC_ROOT: ${HOST_SRC_ROOT}
-        APP_ROOT: ${APP_ROOT}
+    build: .
     restart: always
     tty: true
     volumes:
-      - ${HOST_SRC_ROOT}:${APP_ROOT}
-      - exception-volumes:${APP_ROOT}/node_modules
+      - ./host-frontend-root/frontend-src-root:/opt/frontend-container-app-root/frontend-src-root
     ports:
       - "5173:5173"  # ポートフォワーディングの設定
     environment:
