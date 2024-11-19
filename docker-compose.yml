@@ -9,4 +9,6 @@ services:
       - ./host-frontend-root:/opt/frontend-container-app-root/
     ports:
       - "3000:3000"
+    environment:
+      - HOST=0.0.0.0  # サーバーのバインドアドレスを設定
     network_mode: host #これは必須
