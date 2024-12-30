@@ -10,4 +10,4 @@ COPY ./host-frontend-root/frontend-src-root /opt/frontend-container-app-root/fro
 
 RUN npm install
 
-CMD ["npm", "run", "dev"]
+# CMD ["npm", "run", "dev"]
