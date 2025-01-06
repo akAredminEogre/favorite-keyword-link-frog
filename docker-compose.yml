@@ -11,5 +11,4 @@ services:
       - "3000:3000"
     environment:
       - HOST=localhost  # サーバーのバインドアドレスを設定
-      # - HOST=localhost  # サーバーのバインドアドレスを設定
     network_mode: host #これは必須

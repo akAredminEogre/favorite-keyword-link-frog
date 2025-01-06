@@ -8,7 +8,6 @@ export default defineConfig({
   dev: {
     server: {
       hostname: 'localhost',
-      // hostname: 'localhost',
       port: 3000,      // ポート番号を設定（必要に応じて変更）
     }
   },
