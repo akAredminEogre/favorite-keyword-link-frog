@@ -7,7 +7,8 @@ export default defineConfig({
 
   dev: {
     server: {
-      port: 3000,      // ポート番号を設定（必要に応じて変更）
+      hostname: 'localhost',
+      port: 3000,
     }
   },
   runner: {
@@ -15,11 +16,11 @@ export default defineConfig({
   },
   vite:() =>  ({
     server: {
-      host: '0.0.0.0', // サーバーのバインドアドレスを設定
-      port: 3000,      // ポート番号を設定（必要に応じて変更）
-      strictPort: true, // ポートが既に使用されている場合にエラーをスロー
+      host: 'localhost',
+      port: 3000,
+      strictPort: true, 
       hmr: {
-        port: 3000,    // HMR が使用するポートを設定
+        port: 3000,
       }
     }
   }),

@@ -9,4 +9,6 @@ services:
       - ./host-frontend-root:/opt/frontend-container-app-root/
     ports:
       - "3000:3000"
-    network_mode: host #これは必須
+    environment:
+      - HOST=localhost
+    network_mode: host
