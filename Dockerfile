@@ -9,5 +9,3 @@ RUN apk add --no-cache \
 COPY ./host-frontend-root/frontend-src-root /opt/frontend-container-app-root/frontend-src-root
 
 RUN npm install
-
-# CMD ["npm", "run", "dev"]
