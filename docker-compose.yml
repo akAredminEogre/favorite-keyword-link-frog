@@ -1,14 +1,11 @@
 services:
   frontend:
     image: frontend-image
-    container_name: frontend-container
     build: .
     restart: always
     tty: true
     volumes:
       - ./host-frontend-root:/opt/frontend-container-app-root/
-    ports:
-      - "3000:3000"
     environment:
       - HOST=localhost
     network_mode: host
