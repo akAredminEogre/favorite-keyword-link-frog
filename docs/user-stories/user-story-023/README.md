@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "req:user-stories-user-story-023-readme"
+  type: requirement
+---
+
 # user-story-023: Branded Type 移行 Stage 2〜4
 
 ## 背景

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "req:user-stories-user-story-011-readme"
+  type: requirement
+---
+
 # User Story 011: markdownlint導入
 
 ## ストーリー

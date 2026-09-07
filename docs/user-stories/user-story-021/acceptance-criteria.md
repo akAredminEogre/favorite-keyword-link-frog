@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "test:user-stories-user-story-021-acceptance-criteria"
+  type: test
+---
+
 # US-021 受け入れ条件
 
 ## 機能条件

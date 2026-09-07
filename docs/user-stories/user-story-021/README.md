@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "req:user-stories-user-story-021-readme"
+  type: requirement
+---
+
 # User Story 021: ImportRulesJson - previewImport() id フィールドのバリデーション強化
 
 ## ストーリー

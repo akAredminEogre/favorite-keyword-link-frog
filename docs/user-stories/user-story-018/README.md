@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "req:user-stories-user-story-018-readme"
+  type: requirement
+---
+
 # User Story 018: UseCase/Controller InputData 注入パターン統一（ImportRulesJsonInputData 活用）
 
 > ⚠️ **I/F 名整合注記（CodeRabbit PR#405 指摘対応）**

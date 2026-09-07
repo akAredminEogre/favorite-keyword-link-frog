@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "req:user-stories-user-story-009-readme"
+  type: requirement
+---
+
 # User Story 009: 既存テストへのテスト戦略ドキュメント追加
 
 ## ストーリー

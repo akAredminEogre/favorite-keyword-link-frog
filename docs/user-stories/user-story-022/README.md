@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "req:user-stories-user-story-022-readme"
+  type: requirement
+---
+
 # User Story 022: ImportRulesJson - ブラウザAPI を F&D 専用モジュールへ抽出
 
 ## ストーリー

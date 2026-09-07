@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "req:user-stories-user-story-019-readme"
+  type: requirement
+---
+
 # User Story 019: ルールJSONインポート機能作成
 
 ## ストーリー
