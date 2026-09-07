@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-frameworks-and-drivers-ui-css-styling-import-paths"
+  type: governance
+---
+
 # CSSインポートパスのルール
 
 ## 規約

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-frameworks-and-drivers-ui-react-hooks-useref-types"
+  type: governance
+---
+
 # useRefの型ガイドライン
 
 ## 概要

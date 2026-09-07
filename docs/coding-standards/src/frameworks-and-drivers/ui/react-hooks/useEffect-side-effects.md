@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-frameworks-and-drivers-ui-react-hooks-useeffect-side-effects"
+  type: governance
+---
+
 # useEffectの副作用管理ルール
 
 ## 適用シナリオ

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-frameworks-and-drivers-ui-react-hooks-useprocessingguard"
+  type: governance
+---
+
 # useProcessingGuard - 連続クリック防止フック
 
 ## 概要

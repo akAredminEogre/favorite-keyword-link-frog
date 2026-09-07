@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-frameworks-and-drivers-ui-react-hooks-react-aria-integration"
+  type: governance
+---
+
 # React Ariaコンポーネントとの責任分担
 
 ## 概要

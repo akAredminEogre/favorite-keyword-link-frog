@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-enterprise-business-rules-branded-types"
+  type: governance
+---
+
 # Branded Type 規約
 
 ## 目的

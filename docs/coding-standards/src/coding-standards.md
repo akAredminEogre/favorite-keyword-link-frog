@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-coding-standards"
+  type: governance
+---
+
 # ソースコード言語ガイドライン
 
 ## 適用シナリオ

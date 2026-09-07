@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-frameworks-and-drivers-ui-react-hooks-props-dependent-state"
+  type: governance
+---
+
 # Props依存状態のリセット
 
 ## 原則: 内部状態がpropsの変化に依存する場合、useEffectでリセットすること

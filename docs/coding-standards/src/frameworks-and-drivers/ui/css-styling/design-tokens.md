@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-frameworks-and-drivers-ui-css-styling-design-tokens"
+  type: governance
+---
+
 # デザイントークンの使用
 
 ## 規約
