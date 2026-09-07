@@ -67,6 +67,11 @@ scan:
     - "**/worktrees/**"
     - "**/.wxt/**"
     - "**/.output/**"
+    # 完了ログ（完了 issue・完了 user-story）は注釈対象外にする。
+    # 既存の markdownlint 除外（.markdownlint-cli2.jsonc / lefthook.yml）と揃え、
+    # scan 対象を 1,259 → 177 件へ絞る（cmd_2616 PR-0・軍師分割提案）。
+    - "docs/issues/completed/**"
+    - "docs/user-stories/completed/**"
 
 graph:
   store: "jsonl"
