@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-common-rule-test-strategy-consistency"
+  type: governance
+---
+
 # §7 テスト戦略書との一貫性
 
 ## 目的

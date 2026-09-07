@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-e2e-helper-organization-loop-optimization"
+  type: governance
+---
+
 # ループ内のDOMアクセス最適化
 
 ヘルパー関数をループ内で呼び出す際のDOMアクセス最小化ルール。

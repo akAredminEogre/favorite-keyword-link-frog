@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-common-rule-import-paths"
+  type: governance
+---
+
 # 1. インポートパスのルール
 
 ## 規約

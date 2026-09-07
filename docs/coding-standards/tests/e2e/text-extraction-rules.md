@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-e2e-text-extraction-rules"
+  type: governance
+---
+
 # テキスト取得ルール
 
 E2Eテストで要素からテキストを取得する際のルール。

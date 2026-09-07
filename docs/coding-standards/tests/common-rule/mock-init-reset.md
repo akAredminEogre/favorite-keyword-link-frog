@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-common-rule-mock-init-reset"
+  type: governance
+---
+
 # 6. モック初期化・リセットの明示的呼び出し
 
 ## 規約

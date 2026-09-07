@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-e2e-selector-rules"
+  type: governance
+---
+
 # セレクタルール
 
 E2Eテストで要素を特定する際のルール。

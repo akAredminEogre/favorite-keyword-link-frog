@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-e2e-helper-organization-placement-procedures"
+  type: governance
+---
+
 # ヘルパー配置手順
 
 新規E2Eテストファイル作成前に実施する確認手順と参照情報。

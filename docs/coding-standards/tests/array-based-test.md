@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-array-based-test"
+  type: governance
+---
+
 # 配列ベースのテスト
 
 類似のテストケースは配列で管理し、専用ファイルに切り出す。

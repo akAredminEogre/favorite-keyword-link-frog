@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-e2e-interaction-rules"
+  type: governance
+---
+
 # インタラクションルール
 
 E2Eテストにおけるユーザー操作シミュレーションのルール。

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-e2e-helper-organization-placement-conditions"
+  type: governance
+---
+
 # ヘルパー配置条件
 
 E2Eテストの共通定数・ヘルパー関数の配置先を決定するための条件。

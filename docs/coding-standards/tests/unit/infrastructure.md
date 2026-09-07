@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-unit-infrastructure"
+  type: governance
+---
+
 # infrastructure層固有の規約
 
 ## 適用シナリオ

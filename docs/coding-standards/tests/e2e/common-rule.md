@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-e2e-common-rule"
+  type: governance
+---
+
 # E2Eテスト共通ルール
 
 ## 適用シナリオ

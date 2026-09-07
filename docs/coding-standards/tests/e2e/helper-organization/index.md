@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-e2e-helper-organization-index"
+  type: governance
+---
+
 # ヘルパー配置ルール
 
 E2Eテストの共通定数・ヘルパー関数の配置ルール。

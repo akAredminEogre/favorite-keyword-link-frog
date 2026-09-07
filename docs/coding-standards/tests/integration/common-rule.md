@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-integration-common-rule"
+  type: governance
+---
+
 # 結合テスト共通ルール
 
 結合テストを作成する際の共通ルールをまとめたドキュメント。

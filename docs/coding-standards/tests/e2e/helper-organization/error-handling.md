@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-e2e-helper-organization-error-handling"
+  type: governance
+---
+
 # ヘルパー関数のエラー処理パターン
 
 同一モジュール内のヘルパー関数で一貫したエラー処理を行うためのルール。

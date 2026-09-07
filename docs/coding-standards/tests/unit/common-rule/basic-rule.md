@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-unit-common-rule-basic-rule"
+  type: governance
+---
+
 # テストコーディング規約(基本ルール)
 
 ## 適用シナリオ

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-common-rule-jsdoc-rule"
+  type: governance
+---
+
 # §8 JSDocルール
 
 ## 目的

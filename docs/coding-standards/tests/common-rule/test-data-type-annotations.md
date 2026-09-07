@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-common-rule-test-data-type-annotations"
+  type: governance
+---
+
 # 3. テストデータの型注釈ルール
 
 ## 規約

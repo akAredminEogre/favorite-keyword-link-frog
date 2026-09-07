@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-e2e-assertion-rules"
+  type: governance
+---
+
 # アサーションルール
 
 E2Eテストでのアサーション（検証）に関するルール。

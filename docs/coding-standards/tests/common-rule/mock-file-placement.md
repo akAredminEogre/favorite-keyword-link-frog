@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-common-rule-mock-file-placement"
+  type: governance
+---
+
 # 2. モックファイルの配置ルール
 
 ## 規約
