@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-enterprise-business-rules-value-objects-ids-ruleid-createruleid"
+  type: design
+---
+
 # createRuleId() テスト戦略
 
 ## 目的

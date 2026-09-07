@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-frameworks-and-drivers-messaging-rewriterulemessagingservice-getall"
+  type: design
+---
+
 # RewriteRuleMessagingService.getAll() テスト戦略
 
 ## 目的

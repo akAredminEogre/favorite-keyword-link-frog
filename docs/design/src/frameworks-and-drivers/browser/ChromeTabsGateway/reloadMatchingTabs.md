@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-frameworks-and-drivers-browser-chrometabsgateway-reloadmatchingtabs"
+  type: design
+---
+
 # ChromeTabsGateway.reloadMatchingTabs() テスト戦略
 
 ## 目的

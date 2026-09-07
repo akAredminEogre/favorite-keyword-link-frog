@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-application-business-rules-dto-input-deleteruleinputdata-constructor"
+  type: design
+---
+
 # DeleteRuleInputData.constructor() テスト戦略
 
 ## 目的

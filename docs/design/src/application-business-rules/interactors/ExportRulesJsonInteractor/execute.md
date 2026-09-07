@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-application-business-rules-interactors-exportrulesjsoninteractor-execute"
+  type: design
+---
+
 # ExportRulesJsonInteractor.execute() テスト戦略
 
 ## 目的
