@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-frameworks-and-drivers-ui-components-organisms-confirmdialog-render"
+  type: design
+---
+
 # ConfirmDialog.render() テスト戦略
 
 ## 目的

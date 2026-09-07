@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-interface-adapters-factories-deleterulecontrollerfactory-create"
+  type: design
+---
+
 # DeleteRuleControllerFactory.create() テスト戦略
 
 ## 目的

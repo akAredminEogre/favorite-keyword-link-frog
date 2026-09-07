@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-frameworks-and-drivers-ui-components-atoms-deletebutton-component"
+  type: design
+---
+
 # DeleteButton コンポーネント テスト戦略
 
 ## 目的

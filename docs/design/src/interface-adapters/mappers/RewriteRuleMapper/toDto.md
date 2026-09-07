@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-interface-adapters-mappers-rewriterulemapper-todto"
+  type: design
+---
+
 # RewriteRuleMapper.toDto() テスト戦略
 
 ## 目的

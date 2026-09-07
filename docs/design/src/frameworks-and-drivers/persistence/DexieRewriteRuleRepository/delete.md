@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-frameworks-and-drivers-persistence-dexierewriterulerepository-delete"
+  type: design
+---
+
 # DexieRewriteRuleRepository.delete() テスト戦略
 
 ## 目的

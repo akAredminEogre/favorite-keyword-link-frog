@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-frameworks-and-drivers-ui-components-atoms-toggleswitch-component"
+  type: design
+---
+
 # ToggleSwitch コンポーネント テスト戦略
 
 ## 目的

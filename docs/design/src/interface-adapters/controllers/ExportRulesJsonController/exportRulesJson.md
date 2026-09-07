@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-interface-adapters-controllers-exportrulesjsoncontroller-exportrulesjson"
+  type: design
+---
+
 # ExportRulesJsonController.exportRulesJson() テスト戦略
 
 ## 目的

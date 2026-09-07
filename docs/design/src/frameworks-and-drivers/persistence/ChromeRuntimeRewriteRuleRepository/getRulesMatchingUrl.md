@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-frameworks-and-drivers-persistence-chromeruntimerewriterulerepository-getrulesmatchingurl"
+  type: design
+---
+
 # ChromeRuntimeRewriteRuleRepository.getRulesMatchingUrl() テスト戦略
 
 ## 目的

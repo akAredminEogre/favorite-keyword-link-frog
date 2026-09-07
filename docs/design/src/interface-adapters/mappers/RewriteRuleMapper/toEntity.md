@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-interface-adapters-mappers-rewriterulemapper-toentity"
+  type: design
+---
+
 # RewriteRuleMapper.toEntity() テスト戦略
 
 ## 目的

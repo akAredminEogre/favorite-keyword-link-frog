@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-interface-adapters-controllers-deleterulecontroller-deleterule"
+  type: design
+---
+
 # DeleteRuleController.deleteRule() テスト戦略
 
 ## 目的
