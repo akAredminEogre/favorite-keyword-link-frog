@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "doc:qiita-20260203-qiita"
+  type: document
+---
+
 ## TL;DR
 
 - [実践クリーンアーキテクチャ](https://qiita.com/nrslib/items/a5f902c4defc83bd46b8)を参考に **頭を使わずに** ADRを作成し、クラス構成・ディレクトリ構造を決定

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "doc:qiita-20260203-order"
+  type: document
+---
+
 # ネタ
 記事タイトル
 lazy man’s clean architecture(怠け者のクリーンアーキテクチャ)

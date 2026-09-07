@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "plan:release-0-1-1-1-retrospective"
+  type: plan
+---
+
 # 振り返り
 
 このファイルでデイリースクラムの振り返りを行います。追記専用です。過去の内容を修正しないでください。

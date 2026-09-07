@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "plan:release-0-1-1-1-daily-scrum-01-progress-01-01"
+  type: plan
+---
+
 # 進捗
 
 このファイルは作業の記録を残すためのものです。追記のみ行い、内容の修正や削除は行わないでください。

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "plan:release-0-1-1-1-daily-scrum-01-daily-scrum-01"
+  type: plan
+---
+
 # DAILY SCRUM-01回目
 # DAILY SCRUM-作業計画
 <!-- 作業計画は作業前のみ記入 -->

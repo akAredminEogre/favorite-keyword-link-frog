@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "doc:chrome-store-store-description"
+  type: document
+---
+
 # Chrome Web Store 掲載用説明文
 
 

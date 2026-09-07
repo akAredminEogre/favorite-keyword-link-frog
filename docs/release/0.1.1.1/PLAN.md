@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "plan:release-0-1-1-1-plan"
+  type: plan
+---
+
 # Issueの計画
 
 # DAILY-SCRUM単位のタスク

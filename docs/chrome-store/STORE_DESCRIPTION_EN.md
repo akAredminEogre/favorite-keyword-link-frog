@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "doc:chrome-store-store-description-en"
+  type: document
+---
+
 # Chrome Web Store Description
 
 ## Short Description (132 characters or less)
