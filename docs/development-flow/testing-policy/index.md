@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:development-flow-testing-policy-index"
+  type: governance
+---
+
 # テスト実行方針
 
 このドキュメントは AI・人間の開発者双方が従うべきテスト実行ルールを定義する。

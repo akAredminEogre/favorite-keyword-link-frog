@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:adr-006-export-ui-component-props-interface"
+  type: governance
+---
+
 # ADR-006: UIコンポーネントのPropsインターフェースをエクスポートする
 
 ## ステータス

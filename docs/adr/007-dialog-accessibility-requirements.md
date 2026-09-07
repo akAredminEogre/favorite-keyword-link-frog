@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:adr-007-dialog-accessibility-requirements"
+  type: governance
+---
+
 # ADR-007: ダイアログコンポーネントのアクセシビリティ要件
 
 ## ステータス

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:adr-010-rule-id-branded-type-and-error-handling"
+  type: governance
+---
+
 # ADR-010: RuleId Branded Type 化と InvalidRuleIdError 導入
 
 ## ステータス

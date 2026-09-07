@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:adr-008-ui-component-directory-migration"
+  type: governance
+---
+
 # ADR-008: UIコンポーネント配置の段階的移行
 
 ## ステータス

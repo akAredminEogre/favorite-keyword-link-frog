@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:development-flow-new-feature-index"
+  type: governance
+---
+
 # 新機能開発フロー
 
 ## フロー

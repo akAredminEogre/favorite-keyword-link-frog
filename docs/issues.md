@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "doc:issues"
+  type: document
+---
+
 # 0.1.2
 - [ ] Chrome Web Storeへの実際の登録作業
 - [ ] ビルド・パッケージング手順の確認
