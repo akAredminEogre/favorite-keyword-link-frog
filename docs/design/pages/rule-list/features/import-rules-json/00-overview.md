@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-pages-rule-list-features-import-rules-json-00-overview"
+  type: design
+---
+
 # ルールJSONインポート機能 設計概要
 
 <!-- 本ドキュメントは docs-rules/design/00-overview.md で定義された機能概要ドキュメント形式に従います。

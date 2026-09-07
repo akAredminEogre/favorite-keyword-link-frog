@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-pages-rule-list-features-toggle-rule-active-05-test-strategy-rewriterule-withactive"
+  type: design
+---
+
 # RewriteRule.withActive() テスト戦略
 
 ## 目的

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-pages-rule-list-features-import-rules-json-03-directory-structure"
+  type: design
+---
+
 # ディレクトリ構造設計
 
 > ⚠️ **整合性注記（CodeRabbit PR#405 指摘対応）**

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-pages-rule-list-features-toggle-rule-active-05-test-strategy-tabs-constructor"
+  type: design
+---
+
 # Tabs.constructor() テスト戦略
 
 ## 目的
