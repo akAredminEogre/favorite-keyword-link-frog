@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-interface-adapters-controllers-toggleruleactivecontroller-toggleactive"
+  type: design
+---
+
 # ToggleRuleActiveController.toggleActive() テスト戦略
 
 ## 目的

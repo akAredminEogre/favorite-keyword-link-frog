@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-interface-adapters-presenters-deleterulepresenter-presenterror"
+  type: design
+---
+
 # DeleteRulePresenter.presentError() テスト戦略
 
 ## 目的

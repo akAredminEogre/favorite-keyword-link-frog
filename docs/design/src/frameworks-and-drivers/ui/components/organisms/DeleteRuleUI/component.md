@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-frameworks-and-drivers-ui-components-organisms-deleteruleui-component"
+  type: design
+---
+
 # DeleteRuleUI コンポーネント テスト戦略
 
 ## 目的

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-interface-adapters-presenters-toggleruleactivepresenter-presenterror"
+  type: design
+---
+
 # ToggleRuleActivePresenter.presentError() テスト戦略
 
 ## 目的

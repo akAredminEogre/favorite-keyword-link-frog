@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-interface-adapters-presenters-deleterulepresenter-present"
+  type: design
+---
+
 # DeleteRulePresenter.present() テスト戦略
 
 ## 目的

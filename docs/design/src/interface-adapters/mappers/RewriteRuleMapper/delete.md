@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-interface-adapters-mappers-rewriterulemapper-delete"
+  type: design
+---
+
 # RewriteRuleMapper.delete() テスト戦略
 
 ## 目的

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-frameworks-and-drivers-persistence-chromeruntimerewriterulerepository-delete"
+  type: design
+---
+
 # ChromeRuntimeRewriteRuleRepository.delete() テスト戦略
 
 ## 目的

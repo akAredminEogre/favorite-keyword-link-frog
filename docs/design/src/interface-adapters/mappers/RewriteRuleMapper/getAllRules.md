@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-interface-adapters-mappers-rewriterulemapper-getallrules"
+  type: design
+---
+
 # RewriteRuleMapper.getAllRules() テスト戦略
 
 ## 目的

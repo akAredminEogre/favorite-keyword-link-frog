@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-frameworks-and-drivers-ui-hooks-usedeleterule-hook"
+  type: design
+---
+
 # useDeleteRule() テスト戦略
 
 ## 目的
