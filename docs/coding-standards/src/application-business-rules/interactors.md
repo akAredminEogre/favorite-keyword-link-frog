@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-application-business-rules-interactors"
+  type: governance
+---
+
 # Interactor 実装規約
 
 Interactor（UseCase実装）のコーディング規約。

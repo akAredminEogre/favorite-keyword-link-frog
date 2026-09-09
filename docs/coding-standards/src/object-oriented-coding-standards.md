@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-object-oriented-coding-standards"
+  type: governance
+---
+
 # オブジェクト指向コーディング規約
 
 ## 適用シナリオ

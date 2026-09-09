@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-frameworks-and-drivers-ui-css-styling-color-contrast"
+  type: governance
+---
+
 # 色コントラストのアクセシビリティ要件
 
 ## 原則

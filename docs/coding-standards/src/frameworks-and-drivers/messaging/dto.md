@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-frameworks-and-drivers-messaging-dto"
+  type: governance
+---
+
 # メッセージング DTO コーディング規約
 
 ## 概要

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-frameworks-and-drivers-ui-css-styling-touch-target-size"
+  type: governance
+---
+
 # タッチターゲットサイズのアクセシビリティ要件
 
 ## 原則

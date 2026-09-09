@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-frameworks-and-drivers-ui-react-hooks-state-guard"
+  type: governance
+---
+
 # 状態ガード/ロックの実装ルール
 
 ## 概要

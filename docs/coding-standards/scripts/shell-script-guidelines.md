@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-scripts-shell-script-guidelines"
+  type: governance
+---
+
 # シェルスクリプト コーディングガイドライン
 
 ## エラー出力の規約

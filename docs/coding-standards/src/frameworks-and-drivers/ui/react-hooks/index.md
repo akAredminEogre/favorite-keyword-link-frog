@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-frameworks-and-drivers-ui-react-hooks-index"
+  type: governance
+---
+
 # React Hooks コーディング規約
 
 ## 概要

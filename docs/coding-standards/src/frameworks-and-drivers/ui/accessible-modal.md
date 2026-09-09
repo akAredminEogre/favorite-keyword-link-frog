@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-frameworks-and-drivers-ui-accessible-modal"
+  type: governance
+---
+
 # アクセシブルモーダルコンポーネント規約
 
 ## 概要

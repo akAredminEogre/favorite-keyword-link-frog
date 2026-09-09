@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-frameworks-and-drivers-messaging"
+  type: governance
+---
+
 # メッセージング層 コーディング規約
 
 ## 適用シナリオ

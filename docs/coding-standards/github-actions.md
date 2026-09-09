@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-github-actions"
+  type: governance
+---
+
 # GitHub Actions コーディングガイドライン
 
 ## 概要

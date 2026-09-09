@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-frameworks-and-drivers-ui-css-styling-css-modules"
+  type: governance
+---
+
 # CSS Modules 使用規約
 
 ## 概要

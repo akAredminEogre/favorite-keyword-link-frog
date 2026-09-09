@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-frameworks-and-drivers-ui-components"
+  type: governance
+---
+
 # UI コンポーネント コーディング規約
 
 ## 概要

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-application-business-rules-dto"
+  type: governance
+---
+
 # dtoのコード規約
 
 ## 適用シナリオ

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-make-entire-standards"
+  type: governance
+---
+
 # make コーディング規約
 
 ## 適用シナリオ

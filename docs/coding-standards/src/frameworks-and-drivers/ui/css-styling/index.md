@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-frameworks-and-drivers-ui-css-styling-index"
+  type: governance
+---
+
 # CSS スタイリング コーディング規約
 
 ## 概要

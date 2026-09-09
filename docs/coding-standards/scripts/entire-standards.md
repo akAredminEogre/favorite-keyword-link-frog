@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-scripts-entire-standards"
+  type: governance
+---
+
 # scripts コーディング規約
 
 ## 適用シナリオ
