@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "doc:chrome-store-permission-explanation"
+  type: document
+---
+
 ## 単一用途の説明
 
 **frog-frame-front**は、Webページ上の特定の文字列やDOM要素を置換するChrome拡張機能です。
