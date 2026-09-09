@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "req:user-stories-user-story-013-readme"
+  type: requirement
+---
+
 # User Story 013: CLAUDE.mdリファクタリング
 
 ## ストーリー

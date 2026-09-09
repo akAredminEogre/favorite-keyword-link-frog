@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "req:user-stories-user-story-007-readme"
+  type: requirement
+---
+
 # User Story 007: コーディング規約への適用シナリオ追加
 
 ## ストーリー

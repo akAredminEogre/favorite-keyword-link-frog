@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "req:user-stories-user-story-016-readme"
+  type: requirement
+---
+
 # User Story 016: ImportRulesJsonUI ModalDialogBase 移行（アクセシビリティ完全対応）
 
 > ⚠️ **前提見直し注記（CodeRabbit PR#405 指摘対応）**

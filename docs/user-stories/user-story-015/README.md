@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "req:user-stories-user-story-015-readme"
+  type: requirement
+---
+
 # User Story 015: ルールJSONエクスポート機能
 
 ## ストーリー

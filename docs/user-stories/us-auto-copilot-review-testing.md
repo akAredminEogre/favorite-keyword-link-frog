@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "req:user-stories-us-auto-copilot-review-testing"
+  type: requirement
+---
+
 # ユーザーストーリー: Auto Copilot Review スクリプト テストコード・テスト戦略書
 
 ## ストーリー

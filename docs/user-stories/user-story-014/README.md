@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "req:user-stories-user-story-014-readme"
+  type: requirement
+---
+
 # User Story 014: UpdateRewriteRuleUseCaseのADR-001適合リファクタリング
 
 ## ストーリー

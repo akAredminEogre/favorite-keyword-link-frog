@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "test:user-stories-user-story-018-acceptance-criteria"
+  type: test
+---
+
 # 受け入れ条件
 
 > ⚠️ **整合注記（CodeRabbit PR#405 指摘対応）**: 現行 UseCase の唯一のメソッドは `importRulesJson(inputData)`（`previewImport` は存在しない）。本ストーリーの**目標**は「Controller も `ImportRulesJsonInputData` を直接受け取る形に統一」（README 参照）。下記 AC-2 は**現行（File 受け取り）の振る舞い**を記述したものであり、本US完了時には AC-5（目標形への統一）に置き換わる前提で読むこと。プレビュー確認 UI は本機能に存在しないため AC-4 の「プレビュー表示」は読み替え対象。

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "req:user-stories-user-story-020-readme"
+  type: requirement
+---
+
 # User Story 020: ImportRulesJson ID保持リストア（createWithId 実装）
 
 ## ストーリー

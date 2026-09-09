@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "req:user-stories-user-story-017-readme"
+  type: requirement
+---
+
 # User Story 017: ImportRulesJson I/O バッチ最適化（Dexie bulk 操作）
 
 ## ストーリー

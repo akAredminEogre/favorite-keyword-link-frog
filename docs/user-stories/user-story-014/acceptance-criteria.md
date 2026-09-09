@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "test:user-stories-user-story-014-acceptance-criteria"
+  type: test
+---
+
 # User Story 014: 受け入れ条件
 
 ## 機能要件
