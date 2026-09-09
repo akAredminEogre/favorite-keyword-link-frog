@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-pages-rule-list-features-toggle-rule-active-00-overview"
+  type: design
+---
+
 # ルールトグル機能 設計概要
 
 ## 機能概要

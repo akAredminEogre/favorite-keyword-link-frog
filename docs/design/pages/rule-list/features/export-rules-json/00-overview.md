@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-pages-rule-list-features-export-rules-json-00-overview"
+  type: design
+---
+
 # ルールJSONエクスポート機能 設計概要
 
 ## 機能概要

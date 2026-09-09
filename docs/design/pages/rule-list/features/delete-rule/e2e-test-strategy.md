@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-pages-rule-list-features-delete-rule-e2e-test-strategy"
+  type: design
+---
+
 # ルール削除機能 E2Eテスト戦略
 
 ## 目的

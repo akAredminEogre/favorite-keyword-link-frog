@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-clean-architecture-domain-entities"
+  type: design
+---
+
 <!-- このファイルが更新されるたびに、eslintの設定も更新すること -->
 
 # Domain Layer - Entities 設計ガイドライン

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-pages-rule-list-features-export-rules-json-03-directory-structure"
+  type: design
+---
+
 # ディレクトリ構造設計
 
 ## 詳細構造

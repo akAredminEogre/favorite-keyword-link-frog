@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-pages-rule-list-features-toggle-rule-active-05-test-strategy-toggleruleactiveinputdata-constructor"
+  type: design
+---
+
 # ToggleRuleActiveInputData.constructor() テスト戦略
 
 ## 目的

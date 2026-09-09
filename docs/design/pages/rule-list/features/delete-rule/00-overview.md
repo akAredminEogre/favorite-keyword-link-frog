@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-pages-rule-list-features-delete-rule-00-overview"
+  type: design
+---
+
 # ルール削除機能 設計概要
 
 ## 機能概要

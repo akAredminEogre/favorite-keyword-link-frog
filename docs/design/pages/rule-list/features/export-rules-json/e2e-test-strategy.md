@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-pages-rule-list-features-export-rules-json-e2e-test-strategy"
+  type: design
+---
+
 # ルールJSONエクスポート機能 E2Eテスト戦略
 
 ## 目的

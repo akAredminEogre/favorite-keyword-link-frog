@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-pages-rule-list-features-import-rules-json-e2e-test-strategy"
+  type: design
+---
+
 # ルールJSONインポート機能 E2Eテスト戦略
 
 ## 目的

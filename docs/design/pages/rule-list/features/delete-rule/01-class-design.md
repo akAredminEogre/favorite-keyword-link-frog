@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-pages-rule-list-features-delete-rule-01-class-design"
+  type: design
+---
+
 # クラス設計
 
 ## 制御フロー

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-pages-rule-list-features-delete-rule-integration-test-strategy"
+  type: design
+---
+
 # ルール削除機能 結合テスト戦略
 
 ## 目的
