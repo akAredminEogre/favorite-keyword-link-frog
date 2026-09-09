@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-common-rule-index"
+  type: governance
+---
+
 # テスト共通ルール
 
 テストコード全般に適用される共通ルール。

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-e2e-helper-organization-logic-delegation"
+  type: governance
+---
+
 # ヘルパー関数のロジック集約
 
 同一モジュール内で探索ロジックの重複を避けるためのルール。

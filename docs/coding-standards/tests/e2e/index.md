@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-e2e-index"
+  type: governance
+---
+
 # E2Eテストルール
 
 E2Eテスト（Playwright）に適用されるルール。

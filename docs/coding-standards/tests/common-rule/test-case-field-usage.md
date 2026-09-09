@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-common-rule-test-case-field-usage"
+  type: governance
+---
+
 # 5. テストケース配列のフィールド使用検証
 
 ## 規約

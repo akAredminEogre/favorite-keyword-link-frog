@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-e2e-naming-rules"
+  type: governance
+---
+
 # テスト命名規則
 
 E2Eテストのテスト名（`test()`の第1引数）に関するルール。

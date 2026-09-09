@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-src-object-oriented-nine-rules"
+  type: governance
+---
+
 # オブジェクト指向ルール（ThoughtWorksアンソロジー）
 
 以下の9つのルールを必ず遵守すること：

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-unit-common-rule-test-strategy"
+  type: governance
+---
+
 # テスト戦略
 
 ## 適用シナリオ

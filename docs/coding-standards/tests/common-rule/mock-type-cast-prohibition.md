@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:coding-standards-tests-common-rule-mock-type-cast-prohibition"
+  type: governance
+---
+
 # 4. モック型キャストの禁止
 
 ## 規約
