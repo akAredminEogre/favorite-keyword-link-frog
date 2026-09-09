@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-application-business-rules-interactors-toggleruleactiveinteractor-execute"
+  type: design
+---
+
 # ToggleRuleActiveInteractor.execute() テスト戦略
 
 ## 目的

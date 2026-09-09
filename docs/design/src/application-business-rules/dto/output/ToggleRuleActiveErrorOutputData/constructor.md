@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-application-business-rules-dto-output-toggleruleactiveerroroutputdata-constructor"
+  type: design
+---
+
 # ToggleRuleActiveErrorOutputData.constructor() テスト戦略
 
 ## 目的

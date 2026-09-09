@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-pages-rule-list-ui"
+  type: design
+---
+
 # Rule Table UI 設計
 
 ## 概要

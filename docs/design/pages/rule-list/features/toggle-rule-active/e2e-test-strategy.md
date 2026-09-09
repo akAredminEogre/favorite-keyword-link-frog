@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-pages-rule-list-features-toggle-rule-active-e2e-test-strategy"
+  type: design
+---
+
 # toggle-rule-active E2Eテスト戦略
 
 ## 目的

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-application-business-rules-interactors-deleteruleinteractor-execute"
+  type: design
+---
+
 # DeleteRuleInteractor.execute() テスト戦略
 
 ## 目的

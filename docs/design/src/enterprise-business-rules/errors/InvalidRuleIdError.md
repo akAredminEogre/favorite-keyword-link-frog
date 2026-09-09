@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-enterprise-business-rules-errors-invalidruleiderror"
+  type: design
+---
+
 # InvalidRuleIdError 設計書
 
 ## 目的

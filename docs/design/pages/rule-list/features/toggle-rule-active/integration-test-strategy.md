@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-pages-rule-list-features-toggle-rule-active-integration-test-strategy"
+  type: design
+---
+
 # toggle-rule-active 結合テスト戦略
 
 ## 目的

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-application-business-rules-dto-output-deleteruleerroroutputdata-constructor"
+  type: design
+---
+
 # DeleteRuleErrorOutputData.constructor() テスト戦略
 
 ## 目的

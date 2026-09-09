@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-frameworks-and-drivers-messaging-rewriteruleproxyserviceimpl-deleterule"
+  type: design
+---
+
 # createRewriteRuleProxyServiceImpl().deleteRule() テスト戦略
 
 ## 目的

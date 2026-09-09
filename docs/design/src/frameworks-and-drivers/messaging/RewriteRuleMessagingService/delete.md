@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-frameworks-and-drivers-messaging-rewriterulemessagingservice-delete"
+  type: design
+---
+
 # RewriteRuleMessagingService.delete() テスト戦略
 
 ## 目的

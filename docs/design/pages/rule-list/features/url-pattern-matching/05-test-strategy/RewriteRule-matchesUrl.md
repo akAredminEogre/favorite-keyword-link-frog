@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-pages-rule-list-features-url-pattern-matching-05-test-strategy-rewriterule-matchesurl"
+  type: design
+---
+
 # RewriteRule.matchesUrl() テスト戦略
 
 ## 目的

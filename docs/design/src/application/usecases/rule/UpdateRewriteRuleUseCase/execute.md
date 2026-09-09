@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-application-usecases-rule-updaterewriteruleusecase-execute"
+  type: design
+---
+
 # UpdateRewriteRuleUseCase.execute() テスト戦略
 
 > **配置について**: 本ドキュメントは現行実装（`src/application/usecases/rule/UpdateRewriteRuleUseCase.ts`）のテスト戦略書です。

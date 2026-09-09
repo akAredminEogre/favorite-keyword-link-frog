@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-frameworks-and-drivers-messaging-dto-request-dto-deleterulerequestdto-type-definition"
+  type: design
+---
+
 # DeleteRuleRequestDTO 型定義テスト戦略
 
 ## 目的

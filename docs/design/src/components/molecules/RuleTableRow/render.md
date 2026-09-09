@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "design:design-src-components-molecules-ruletablerow-render"
+  type: design
+---
+
 # RuleTableRow コンポーネント（DeleteButton統合）テスト戦略
 
 ## 目的
