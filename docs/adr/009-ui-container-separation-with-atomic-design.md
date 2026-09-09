@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:adr-009-ui-container-separation-with-atomic-design"
+  type: governance
+---
+
 # ADR-009: UI/Container分離とAtomic Designの統合
 
 ## ステータス

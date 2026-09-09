@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:adr-002-messaging-with-webext-core"
+  type: governance
+---
+
 # ADR-002: メッセージングに @webext-core を採用
 
 ## ステータス

@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:adr-001-clean-architecture-with-presenter-pattern"
+  type: governance
+---
+
 # ADR-001: Clean Architecture Presenter付きパターン採用
 
 ## ステータス

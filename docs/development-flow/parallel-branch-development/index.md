@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:development-flow-parallel-branch-development-index"
+  type: governance
+---
+
 # ブランチ並行開発ガイド
 
 このドキュメントは git worktree を活用した複数担当者による

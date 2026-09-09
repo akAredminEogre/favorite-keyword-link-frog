@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:development-flow-pr-policy-index"
+  type: governance
+---
+
 # PR運用ポリシー
 
 ## 基本方針

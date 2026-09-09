@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:adr-003-unified-db-access-via-messaging"
+  type: governance
+---
+
 # ADR-003: DB アクセスを messaging 経由に統一し DTO を使用
 
 ## ステータス

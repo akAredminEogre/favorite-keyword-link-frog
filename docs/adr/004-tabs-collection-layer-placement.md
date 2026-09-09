@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:adr-004-tabs-collection-layer-placement"
+  type: governance
+---
+
 # ADR-004: Tabs ファーストクラスコレクションの層配置
 
 ## ステータス

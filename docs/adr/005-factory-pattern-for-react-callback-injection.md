@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "governance:adr-005-factory-pattern-for-react-callback-injection"
+  type: governance
+---
+
 # ADR-005: ReactコールバックをPresenterに注入するためのFactoryパターン採用
 
 ## ステータス

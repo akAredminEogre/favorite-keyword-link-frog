@@ -1,3 +1,9 @@
+---
+codd:
+  node_id: "doc:git-worktree"
+  type: document
+---
+
 # Git Worktree Guide
 
 <!-- Note: When updating this document, also sync relevant sections in CLAUDE.md -->
