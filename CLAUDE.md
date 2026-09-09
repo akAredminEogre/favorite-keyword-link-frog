@@ -93,3 +93,21 @@
 ## トラブルシューティング
 
 → 詳細は [.AI/troubleshooting.md](.AI/troubleshooting.md) を参照
+
+## codd（CoDD: Coherence-Driven Development）使用規約
+
+本リポには codd-dev（PyPI 3.37.0）の brownfield 計装が導入されている（設定: `codd/codd.yaml`）。
+
+### 実行場所
+
+- codd コマンドは**正本クローンのルートでのみ実行すること**
+- `worktrees/` 配下では実行しない（`codd/scan/`・`codd/reports/` は git 管理外のため、worktree 側で実行するとグラフが分裂する）
+
+### 許可コマンド（読み取り・検証系のみ）
+
+- `codd scan` / `codd validate` / `codd impact` / `codd verify`
+
+### 禁止コマンド（生成・改変系）
+
+- `codd scaffold` / `codd generate` / `codd repair` / `codd fix` / `codd implement` / `codd extract --ai` / `codd hooks`（git hook 導入）等の生成・改変系コマンドは**実行禁止**
+- 理由: 既存ファイルを上書きする恐れがある（例: `vitest.config.ts` の WSL 対策 `pool: forks` / `maxForks: 2` が scaffold の owned_files 上書きで失われる）

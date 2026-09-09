@@ -1,3 +1,16 @@
+---
+codd:
+  node_id: "req:business-requirements"
+  type: requirement
+  depended_by:
+    - id: "req:functional-requirements"
+      relation: derives_from
+      semantic: governance
+    - id: "req:non-functional-requirements"
+      relation: derives_from
+      semantic: governance
+---
+
 # ビジネス要求定義書
 
 ## プロジェクト名

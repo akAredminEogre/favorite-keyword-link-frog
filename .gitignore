@@ -8,3 +8,6 @@ worktrees/
 
 # Claude Code local settings
 .claude/settings.local.json
+
+# codd 実行時キャッシュ（DAG等・再生成可能）
+.codd/

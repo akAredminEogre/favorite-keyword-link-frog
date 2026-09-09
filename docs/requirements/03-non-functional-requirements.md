@@ -1,3 +1,13 @@
+---
+codd:
+  node_id: "req:non-functional-requirements"
+  type: requirement
+  depends_on:
+    - id: "req:business-requirements"
+      relation: derives_from
+      semantic: governance
+---
+
 # 非機能要件定義書
 
 ## セキュリティ要件

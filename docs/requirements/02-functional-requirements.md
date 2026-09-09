@@ -1,3 +1,13 @@
+---
+codd:
+  node_id: "req:functional-requirements"
+  type: requirement
+  depends_on:
+    - id: "req:business-requirements"
+      relation: derives_from
+      semantic: governance
+---
+
 # 機能要件定義書
 
 ## 機能一覧

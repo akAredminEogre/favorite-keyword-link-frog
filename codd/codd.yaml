@@ -1,0 +1,181 @@
+# CoDD プロジェクト設定
+version: "0.1.0"
+codd_required_version: null
+codd_required_version_strict: false
+
+project:
+  name: "frog-frame-front"
+  language: "typescript"
+  frameworks: []
+
+# ai_command から危険フラグ（--permission-mode bypassPermissions /
+# --dangerously-skip-permissions）を除去（殿裁可 cmd_2616 R1・2026-09-02＝
+# 防御多重化によるnull化）。CLAUDE.md 使用規約は技術的強制力を持たぬため、
+# 出所（upstream 既定）不問で設定側からも危険フラグを一切コミットしない。
+# 本リポでは codd scaffold/generate/repair/extract --ai は使用禁止のため当
+# コマンドは実行経路に乗らない（inert）が、万一 generate/repair が誤実行され
+# ても危険フラグは発火しない（CLAUDE.md「codd 使用規約」参照）。
+ai_command: "claude --print --model claude-opus-4-8 --effort max --tools \"\""
+
+# codex_app_server:
+#   enabled: false
+#   transport: stdio
+#   thread_strategy: per_session
+#   effort: xhigh
+#   model: gpt-5.5
+#   timeout_seconds: 300
+#   fallback: subprocess
+coding_principles: null
+
+# operation_flow (optional - declare UI topology per operation):
+# operation_flow:
+#   operations:
+#     - id: "example_action"
+#       actor: "role_name"
+#       verb: "manage_collection"
+#       target: "child_entity"
+#       parent: "parent_entity"
+#       ui_pattern: "master_detail"
+#
+# ui_coherence:
+#   ignore_relations:
+#     - {parent: "foo", child: "bar"}  # intentional single-screen design
+#
+# runtime:
+#   global_action_targets:
+#     - name: "compact session action coverage"
+#       action:
+#         id: "session.sign_out"
+#         target: "session_action"
+#         outcomes: [breakpoint_available, session_absence_after_action]
+#       command: "npm run test:mobile-session-action"
+
+scan:
+  # 実レイアウト: リポ直下に package.json は無く、フロント実体は
+  # host-frontend-root/frontend-src-root/ 配下（brownfield計装・cmd_2616）
+  source_dirs:
+    - "host-frontend-root/frontend-src-root/src/"
+  test_dirs:
+    - "host-frontend-root/frontend-src-root/tests/"
+  doc_dirs:
+    - "docs/"
+  config_files: []
+  exclude:
+    - "**/node_modules/**"
+    - "**/__pycache__/**"
+    - "**/dist/**"
+    - "**/worktrees/**"
+    - "**/.wxt/**"
+    - "**/.output/**"
+
+graph:
+  store: "jsonl"
+  path: "codd/scan"
+
+bands:
+  green:
+    min_confidence: 0.90
+    min_evidence_count: 2
+  amber:
+    min_confidence: 0.50
+
+propagation:
+  max_depth: 10
+  stop_at_contract_boundary: true
+
+typecheck:
+  enabled: false
+  command: null
+  max_repair_attempts: 3
+
+verify:
+  # install_preflight はリポ直下(cwd=project_root)で npm ci を打つが、
+  # 本リポは直下に package.json が無いため必ず失敗する → 無効化し、
+  # 依存導入は test_command 内の実体ディレクトリで行う前提とする
+  install_preflight: false
+  # 実テストコマンド（CI unit ジョブ相当: wxt prepare → vitest run）
+  test_command: "cd host-frontend-root/frontend-src-root && npx wxt prepare && npm run test:unit"
+  # 既定 docs/test/verify_report.md は不在dirへの docs/ 汚染となるため codd/ 配下へ
+  report_output: "codd/reports/verify_report.md"
+
+ci:
+  provider: github_actions   # github_actions | gitlab_ci | none
+  # GitHub Actions loads BOTH .yml and .yaml; the default spans both (comma-
+  # separated union). Narrow to a single pattern to scope to one extension.
+  workflow_glob: .github/workflows/*.yml
+  required_triggers:
+    - push
+    - pull_request
+  runtime_check: false       # opt-in (v2.13.0)
+  staleness_days: 14
+  # 本リポの PR/CI 基準ブランチは develop（main はリリース用）
+  default_branch: develop
+
+# runtime_smoke:
+#   enabled: false
+#   db_check:
+#     command: "nc -zv localhost 5432"
+#   dev_server:
+#     url: "http://localhost:3000"
+#     expected_status: 200
+#     timeout: 30
+#   smoke_connectivity:
+#     - url: "/api/health"
+#       expected_status: 200
+#   e2e:
+#     command: "npx playwright test tests/smoke/"
+
+# Optional: POST/PUT/PATCH/DELETE -> re-fetch -> visible reflection checks.
+# runtime:
+#   crud_flow_targets:
+#     - name: "create item appears in list"
+#       command: "npx playwright test tests/smoke/create-item.spec.ts"
+#     - name: "api create then list reflects"
+#       create:
+#         method: POST
+#         url: "/api/items"
+#         expected_status: 201
+#         json: {name: "codd-runtime-smoke"}
+#       reflect:
+#         url: "/items"
+#         expected_status: 200
+#         expect_text: "codd-runtime-smoke"
+#       max_wait_seconds: 10
+#       poll_interval: 0.5
+
+# Optional: action/command/control -> observable outcome checks.
+# Use this when operation_flow declares mutating commands such as update,
+# delete, complete, approve, publish, send, import, or a broad manage_collection action.
+# Terminal actions such as complete/delete/disable should also assert disabled_state,
+# control_absence, expected_absence, or terminal_state_guard.
+# runtime:
+#   action_outcome_targets:
+#     - name: "record update reflects after reload"
+#       actions:
+#         - id: "record.update"
+#           verb: "update"
+#           target: "record"
+#           trigger: "browser submit or API request"
+#           outcomes:
+#             - server_acceptance
+#             - persisted_change
+#             - visible_reflection
+#             - reload_persistence
+#       command: "npx playwright test tests/smoke/record-update.spec.ts"
+#     - name: "record publish emits event"
+#       action:
+#         id: "record.publish"
+#         verb: "publish"
+#         target: "record"
+#         outcomes:
+#           - server_acceptance
+#           - emitted_event
+#       invoke:
+#         method: POST
+#         url: "/api/records/publish"
+#         expected_status: 202
+#       observe:
+#         url: "/api/events"
+#         expected_status: 200
+#         expect_text: "record.publish"
+#       max_wait_seconds: 10
